@@ -3,7 +3,7 @@
     "document_id": "DE24rgI6QVhg0rm0rbCG",
     "original_document_id": "DE24rgI6QVhg0rm0rbCG",
     "version": "29",
-    "lastChanged": "1670625458475",
+    "lastChanged": "1670626759292",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -49,6 +49,19 @@
                     [
                         "Echopark",
                         "Specular"
+                    ],
+                    [
+                        "Fireworks VFX Resources",
+                        "Scripts",
+                        "Script Spawn VFX"
+                    ],
+                    [
+                        "Fireworks VFX Resources",
+                        "VFX",
+                        "Firework Explosion"
+                    ],
+                    [
+                        "Fireworks__PLACE_IN_OBJECTS_PANEL"
                     ],
                     [
                         "Fonts"
@@ -220,7 +233,7 @@
             "active_graph_asset": "-1:-1"
         },
         "VFX::UiComponent": {
-            "active_graph_asset": "-1:-1"
+            "active_graph_asset": "1670626169161772:203747"
         }
     },
     "model": {
@@ -406,6 +419,62 @@
                     "resId": "48",
                     "uid": "1670385340226645:231684",
                     "name": "Files\/File77.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "49",
+                    "uid": "1670626168868233:203648",
+                    "name": "sceneObject_0",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "50",
+                    "uid": "1670626169120642:203738",
+                    "name": "Files\/File79.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "51",
+                    "uid": "1670626169161772:203747",
+                    "name": "Files\/File80",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "52",
+                    "uid": "1670626169278099:203758",
+                    "name": "Files\/File82",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "53",
+                    "uid": "1670626169640706:204043",
+                    "name": "Files\/File84",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "54",
+                    "uid": "1670626169723184:204059",
+                    "name": "Files\/File86",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "55",
+                    "uid": "1670626170041521:204075",
+                    "name": "Files\/File88.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -620,6 +689,54 @@
                 {
                     "k": "77",
                     "v": "Files\/File77.mp3"
+                },
+                {
+                    "k": "78",
+                    "v": "Files\/File78.oprfb"
+                },
+                {
+                    "k": "79",
+                    "v": "Files\/File79.js"
+                },
+                {
+                    "k": "80",
+                    "v": "Files\/File80"
+                },
+                {
+                    "k": "81",
+                    "v": "Files\/File81.lsvfx"
+                },
+                {
+                    "k": "82",
+                    "v": "Files\/File82"
+                },
+                {
+                    "k": "83",
+                    "v": "Files\/File83.lsmat"
+                },
+                {
+                    "k": "84",
+                    "v": "Files\/File84"
+                },
+                {
+                    "k": "85",
+                    "v": "Files\/File85.lsmat"
+                },
+                {
+                    "k": "86",
+                    "v": "Files\/File86"
+                },
+                {
+                    "k": "87",
+                    "v": "Files\/File87.lsmat"
+                },
+                {
+                    "k": "88",
+                    "v": "Files\/File88.js"
+                },
+                {
+                    "k": "97",
+                    "v": "Files\/File97.oprfb"
                 }
             ]
         },
@@ -745,6 +862,30 @@
                     {
                         "k": "1013",
                         "v": "Audio\/275809__dingus23__earthquake.mp3"
+                    },
+                    {
+                        "k": "1014",
+                        "v": "Fireworks VFX Resources"
+                    },
+                    {
+                        "k": "1015",
+                        "v": "Fireworks VFX Resources\/Scripts"
+                    },
+                    {
+                        "k": "1016",
+                        "v": "Fireworks VFX Resources\/Scripts\/Script Spawn VFX.js"
+                    },
+                    {
+                        "k": "1017",
+                        "v": "Fireworks VFX Resources\/VFX"
+                    },
+                    {
+                        "k": "1018",
+                        "v": "Fireworks VFX Resources\/VFX\/Firework Explosion.lsvfx"
+                    },
+                    {
+                        "k": "1027",
+                        "v": "Fireworks__PLACE_IN_OBJECTS_PANEL.oprfb"
                     }
                 ],
                 "hashes": [
@@ -770,7 +911,7 @@
                     },
                     {
                         "k": "974",
-                        "v": "e3e602d17c34edad9963c6a6f8724028"
+                        "v": "6f672d425b517baffa802b8c1d083aae"
                     },
                     {
                         "k": "975",
@@ -895,14 +1036,42 @@
                     {
                         "k": "1014",
                         "v": "59361291686fd7cebf3981836238abbb"
+                    },
+                    {
+                        "k": "1016",
+                        "v": "fc46fd8b2285b1e7849abb5eddb1bbc0"
+                    },
+                    {
+                        "k": "1018",
+                        "v": "ac855f3a75f243e2413bf26c09049f40"
+                    },
+                    {
+                        "k": "1021",
+                        "v": "b104d24f714f552d9c746aee723d63fe"
+                    },
+                    {
+                        "k": "1023",
+                        "v": "85d339d916479f729938d2911b85bf1f"
+                    },
+                    {
+                        "k": "1024",
+                        "v": "2d36b1a925432bae7f3c53a340868c6e"
+                    },
+                    {
+                        "k": "1026",
+                        "v": "2c304535e22e0922a3fb21eee606e51e"
+                    },
+                    {
+                        "k": "1027",
+                        "v": "4e0ec948c0fda687d0cfbbf29d05dee5"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-12-06T19:55:42",
+                        "lastModified": "2022-12-09T14:51:10",
                         "name": "Public",
-                        "hash": "a4e9c1d5fa52805ab7ff8bd343705f4c",
+                        "hash": "21b304af50f4cc24c018bcb99b40d512",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -938,6 +1107,72 @@
                                 "lastModified": "2022-11-14T19:28:58",
                                 "name": "Echopark.hdr",
                                 "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-12-09T14:49:29",
+                                "name": "Fireworks VFX Resources",
+                                "hash": "245d0c838ac0b941adc1d296025fcce3",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-12-09T14:49:29",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-12-09T14:49:29",
+                                        "name": "Scripts",
+                                        "hash": "983903ab70503eba38bd14446be0584b",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-12-09T14:49:29",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-12-09T14:49:29",
+                                                "name": "Script Spawn VFX.js",
+                                                "hash": "fc46fd8b2285b1e7849abb5eddb1bbc0",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-12-09T14:49:38",
+                                        "name": "VFX",
+                                        "hash": "53c44fb2939bacff17fabffd76c95b80",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-12-09T14:49:33",
+                                                "name": "Firework Explosion.lsvfx",
+                                                "hash": "ac855f3a75f243e2413bf26c09049f40",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-12-09T14:49:29",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-12-09T14:49:28",
+                                "name": "Fireworks__PLACE_IN_OBJECTS_PANEL.oprfb",
+                                "hash": "4e0ec948c0fda687d0cfbbf29d05dee5",
                                 "children": ""
                             },
                             {
@@ -1061,7 +1296,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2022-12-06T20:37:53",
                                 "name": "Scripts",
-                                "hash": "023bfd9ee0caa1722935f53dd5556cad",
+                                "hash": "3aa291b27836a4307bf57f197a04609b",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -1072,9 +1307,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-12-09T14:35:14",
+                                        "lastModified": "2022-12-09T14:58:56",
                                         "name": "EarthController.js",
-                                        "hash": "e3e602d17c34edad9963c6a6f8724028",
+                                        "hash": "6f672d425b517baffa802b8c1d083aae",
                                         "children": ""
                                     },
                                     {
@@ -1728,16 +1963,184 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "Fireworks VFX Resources",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1014",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Scripts",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1015",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Script Spawn VFX",
+                                        "type": "4",
+                                        "subtype": "0",
+                                        "resourceId": "50",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1670626169120642:203738",
+                                        "fileId": "79",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "1016",
+                                        "source": "C:\/Users\/Shosh\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioELcfXVInTetF\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "VFX",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "1017",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Firework Explosion",
+                                        "type": "23",
+                                        "subtype": "0",
+                                        "resourceId": "51",
+                                        "dependency": "2",
+                                        "hidden": "false",
+                                        "uid": "1670626169161772:203747",
+                                        "fileId": "80",
+                                        "originalId": "81",
+                                        "publicId": "1018",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "System 39",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "hidden": "true",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": {
+                                                    "system_id": "39"
+                                                },
+                                                "resources": [
+                                                    {
+                                                        "name": "Rendering",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "52",
+                                                        "dependency": "1",
+                                                        "hidden": "true",
+                                                        "uid": "1670626169278099:203758",
+                                                        "fileId": "82",
+                                                        "originalId": "83",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": {
+                                                            "crossCompilingAllowed": "false"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "Feedback",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "53",
+                                                        "dependency": "1",
+                                                        "hidden": "true",
+                                                        "uid": "1670626169640706:204043",
+                                                        "fileId": "84",
+                                                        "originalId": "85",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": {
+                                                            "crossCompilingAllowed": "false"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "Simulation",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "54",
+                                                        "dependency": "1",
+                                                        "hidden": "true",
+                                                        "uid": "1670626169723184:204059",
+                                                        "fileId": "86",
+                                                        "originalId": "87",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": {
+                                                            "crossCompilingAllowed": "false"
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "Managing",
+                                                        "type": "4",
+                                                        "subtype": "0",
+                                                        "resourceId": "55",
+                                                        "dependency": "1",
+                                                        "hidden": "true",
+                                                        "uid": "1670626170041521:204075",
+                                                        "fileId": "88",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "C:\/Users\/Shosh\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioELcfXVInTetF\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fireworks__PLACE_IN_OBJECTS_PANEL",
+                        "type": "12",
+                        "subtype": "0",
+                        "resourceId": "49",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1670626168868233:203648",
+                        "fileId": "78",
+                        "originalId": "97",
+                        "publicId": "1027",
+                        "source": "",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1670202279590748:80641"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
@@ -2034,7 +2437,12 @@
             ]
         },
         "AssetImportController": {
-            "itemUidToID": ""
+            "itemUidToID": [
+                {
+                    "k": "1670626168868233:203648",
+                    "v": "2kdFGwPebJPmqwnNgNb3df"
+                }
+            ]
         },
         "DigitalGoodsController": {
             "digital_goods": ""

@@ -9,6 +9,7 @@
 
 //@input Component.ScriptComponent StateHandler { "label": "StateHandler"}
 //@input Asset.AudioTrackAsset ExplosionAudio
+//@input Asset.VFXAsset ExplosionVfxAsset
 
 //variables
 var transform =script.getTransform();
@@ -81,8 +82,20 @@ var updateEvent = script.createEvent("UpdateEvent");
     MeshVisual.enabled=false;
     Collider.enabled=false;
     script.StateHandler.api.SetStateDone();
+    SpawnExplosion();
     Audio.audioTrack=script.ExplosionAudio;
     Audio.play(1);
+
+  }
+
+  function SpawnExplosion()
+  {
+    var vfxObject = global.scene.createSceneObject("vfx");
+    var vfxComponent = vfxObject.createComponent("Component.VFXComponent");
+    vfxComponent.asset = script.ExplosionVfxAsset;
+    vfxObject.getTransform().setWorldPosition(origin_pos);
+    vfxComponent.asset.properties.spawnTime = getTime();
+
 
   }
 
