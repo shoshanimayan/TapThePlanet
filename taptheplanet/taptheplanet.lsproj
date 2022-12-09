@@ -3,7 +3,7 @@
     "document_id": "DE24rgI6QVhg0rm0rbCG",
     "original_document_id": "DE24rgI6QVhg0rm0rbCG",
     "version": "29",
-    "lastChanged": "1670626759292",
+    "lastChanged": "1670629933975",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -179,7 +179,7 @@
             "selectionSetList": ""
         },
         "MetaInfoUIComponent": {
-            "icon_hash": "56814dbefc6c60009fe6066406087653",
+            "icon_hash": "65c92548b7369e7c2f6c3a940cc640c2",
             "icon_path": "icon.png",
             "hints": [
                 ""
@@ -911,7 +911,7 @@
                     },
                     {
                         "k": "974",
-                        "v": "6f672d425b517baffa802b8c1d083aae"
+                        "v": "b12da0b39a44ddc468d04afd0dc1d05f"
                     },
                     {
                         "k": "975",
@@ -1071,7 +1071,7 @@
                         "isFolder": "true",
                         "lastModified": "2022-12-09T14:51:10",
                         "name": "Public",
-                        "hash": "21b304af50f4cc24c018bcb99b40d512",
+                        "hash": "649f11ab1736c8f74a0aa6a2f46f7cd0",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -1296,7 +1296,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2022-12-06T20:37:53",
                                 "name": "Scripts",
-                                "hash": "3aa291b27836a4307bf57f197a04609b",
+                                "hash": "1986e3fb256ba894ce9509f59eba95d4",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -1307,9 +1307,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-12-09T14:58:56",
+                                        "lastModified": "2022-12-09T15:09:10",
                                         "name": "EarthController.js",
-                                        "hash": "6f672d425b517baffa802b8c1d083aae",
+                                        "hash": "b12da0b39a44ddc468d04afd0dc1d05f",
                                         "children": ""
                                     },
                                     {
@@ -2140,7 +2140,11 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1670202279590748:80641"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",

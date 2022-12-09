@@ -44,6 +44,8 @@ var updateEvent = script.createEvent("UpdateEvent");
       {
         shaking=false;
         script.ShakeForce+=script.ShakeIncrement;
+        script.ShakeSpeed+=script.ShakeIncrement;
+
         transform.setWorldPosition(origin_pos);
 
       }
